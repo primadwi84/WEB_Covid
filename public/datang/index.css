@@ -1,0 +1,139 @@
+/* Navbar */
+
+.navbar-brand
+{
+    font-family:Viga;
+    font-size: 30px;
+}
+
+
+
+/* Utility */
+.tombol
+{
+    text-transform:uppercase;
+    border-radius:20px;
+}
+
+/* Jumbotron */
+.jumbotron
+{
+    background-image: url(/img/covid.jpg);
+    background-size: cover;
+    height: 540px;
+}
+
+
+
+.display-4
+{
+    color:white;
+    text-align:center;
+    margin-top: 230px;
+    font-weight:200;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+}
+
+.jumbotron.display-4,span
+{
+    font-weight:500;
+}
+
+/* Info Panel */
+.info-panel
+{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0,5);
+    border-radius: 12px;
+    margin-top: -40px;
+    background-color:#aad8d3;
+    padding: 30px;
+
+}
+
+/*Keterangan*/ 
+.keterangan
+{
+    color:honeydew;
+}
+
+.keterangan h4
+{
+    text-align:center;
+    color:honeydew;
+}
+
+.info-panel img
+{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.info-panel h4
+{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) 
+{  
+    .navbar-brand
+    {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link
+    {
+        text-transform: uppercase;
+        margin-right: 30px;
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link:hover::after
+    {
+        content:'';
+        display: block;
+        border-bottom: 3px solid #2113DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px; 
+        margin-bottom: -8px;
+
+    }
+
+    .jumbotron
+    {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .display-4
+    {
+        font-size: 50px;
+    }
+
+    .keterangan h4
+    {
+        text-align:center;
+        font-size:32px;
+        color:ivory;
+    }
+
+    .info-panel img
+{
+    margin-left: 10px;
+}
+
+
+    
+}
